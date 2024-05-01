@@ -7,7 +7,7 @@ export default function Home() {
       <p className="text-center">
         Home
       </p>
-      <Link href="/form1" className="px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      <Link href="/form1" className="text-black bg-slate-200 hover:bg-slate-600 hover:text-slate-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center m-[2rem]">
         Fill up Form - 1
       </Link>
     </div>

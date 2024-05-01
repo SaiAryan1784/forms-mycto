@@ -9,3 +9,12 @@ datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
+
+model Post {
+  id      String   @id @default(cuid())
+  firstName    String
+  lastName    String
+  company    String
+  email    String
+  number    BigInt
+}
