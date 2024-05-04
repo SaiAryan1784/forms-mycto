@@ -17,4 +17,11 @@ const config: Config = {
   },
   plugins: [],
 };
+// module.exports = {
+//   theme: {
+//     fontFamily: {
+//       'sans': ['Jost', 'sans-serif'],
+//     },
+//   },
+// };
 export default config;
